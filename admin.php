@@ -8,7 +8,6 @@
         table{
             border-collapse: collapse;
         }
-        background-color: rgba(255, 251, 0, 0.822);
     </style>
 </head>
 <body>
@@ -76,7 +75,7 @@ setcookie('changed_uid', $person['id'], time() + 30 * 24 * 60 * 60);
     </label><br>
 
     <label>
-        дата рождения:
+        Дата рождения:
         <input class="form" name="birthday"
                value="<?php print($person['birthday']); ?>"
                type="date"/>
